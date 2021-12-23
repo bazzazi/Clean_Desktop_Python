@@ -1,3 +1,17 @@
+###############          ##########        #######   #######        #########      #######       #
+#              #        #          #             #         #       #         #           #
+#               #       #          #            #         #        #         #          #        #
+#              #        #          #           #         #         #         #         #         #
+###############         ############          #         #          ###########        #          #
+#              #        #          #         #         #           #         #       #           #
+#               #       #          #        #         #            #         #      #            #
+#              #        #          #       #         #             #         #     #             #
+###############         #          #      #######    #######       #         #    #######        #
+
+# Developer: Mohammad Ali Bazzazi (me)
+
+########################### START ###########################
+
 from watchdog.events import FileSystemEventHandler
 from watchdog.observers import Observer
 import time, os, pyttsx3
@@ -35,3 +49,4 @@ except KeyboardInterrupt:
 
 observer.join()
 
+########################### END ###########################
